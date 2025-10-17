@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<title>Pesan Mamayoo Online</title>
+		<style>
+			:root {
+				--bg: #fcf7ec;
+				--btn-radius: 12px;
+				--btn-padding: 14px;
+				--max-width: 420px;
+			}
+			html,
+			body {
+				height: 100%;
+				margin: 0;
+				font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+					"Helvetica Neue", Arial;
+				background: var(--bg);
+			}
+			.wrap {
+				min-height: 100vh;
+				display: flex;
+				align-items: flex-start;
+				justify-content: center;
+				padding: 36px 18px;
+			}
+			.card {
+				width: 100%;
+				max-width: var(--max-width);
+				text-align: center;
+				background: transparent;
+				box-shadow: none;
+			}
+			.logo {
+				margin-top: 12px;
+			}
+			.title {
+				font-size: 20px;
+				margin: 12px 0 18px;
+				color: #333;
+				font-weight: 600;
+				letter-spacing: 0.2px;
+			}
+			.desc {
+				font-size: 14px;
+				color: #444;
+				margin-bottom: 8px;
+			}
+			.btn {
+				display: block;
+				width: 100%;
+				text-decoration: none;
+				padding: var(--btn-padding);
+				border-radius: var(--btn-radius);
+				margin: 10px 0;
+				font-weight: 700;
+				border: 2px solid rgba(0, 0, 0, 0.12);
+				background: #fff;
+				color: #111;
+				box-sizing: border-box;
+			}
+			.btn:active {
+				transform: translateY(1px);
+			}
+			.btn.small {
+				padding: 12px;
+			}
+			.foot {
+				font-size: 12px;
+				color: #555;
+				margin-top: 18px;
+			}
+			/* responsive tweaks */
+			@media (max-width: 420px) {
+				:root {
+					--max-width: 380px;
+				}
+				.title {
+					font-size: 18px;
+				}
+				.btn {
+					font-size: 16px;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="card" role="main">
+				<div class="logo">
+					<img
+						src="./Logo_Mamayoo_Terbaru_OKK.png"
+						alt="Mamayoo Logo"
+						width="220"
+						style="display: block; margin: 0 auto; image-rendering: auto"
+					/>
+				</div>
+				<div class="title">Pesan Mamayoo Online</div>
+				<div class="desc">
+					Pilih platform favoritmu untuk pesan makanan dari Mamayoo
+				</div>
+				<a
+					class="btn"
+					href="https://gofood.co.id/jakarta/restaurant/mama-yoo-chef-by-korean-mama-yoo-korea-food-grand-wijaya-5ab907b2-5035-4edd-9f62-42cca6f81812"
+					target="_blank"
+					rel="noopener noreferrer"
+					>Order via GoFood</a
+				>
+				<a
+					class="btn"
+					href="https://r.grab.com/g/6-20251016_095549_1401B3C06C02406C8622B59B92FC5D55_MEXMPS-6-C2KXTGETJ3NZWA"
+					target="_blank"
+					rel="noopener noreferrer"
+					>Order via GrabFood</a
+				>
+				<a
+					class="btn"
+					href="https://spf.shopee.co.id/6ps7wvUUh5"
+					target="_blank"
+					rel="noopener noreferrer"
+					>Order via ShopeeFood</a
+				>
+				<div class="foot">
+					Klik tombol di atas untuk diarahkan ke layanan pesan antar.
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
